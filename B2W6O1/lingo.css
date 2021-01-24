@@ -1,0 +1,28 @@
+body{
+	background-color: gray;
+}
+#container{
+	display: block;
+	width: 1000px;
+	height: 150px;
+	margin: 25px  auto;
+	background-color: yellow;
+	text-align: center;
+	padding-top: 25px;
+}
+#result-container{
+	background-color: white;
+  	position: absolute;
+	width: 270px;
+	height: auto;
+	top: 44%;
+  	left: 50%;
+  	text-align: center;
+  	transform: translate(-50%, -50%);
+
+}
+#result-container > button{
+	width: 35px;
+	height: 35px;
+	margin: 7px 7px;
+}
